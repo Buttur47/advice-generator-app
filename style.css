@@ -1,0 +1,125 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("Manrope/Manrope-VariableFont_wght.ttf") format("truetype");
+    font-weight: 500, 700, 900;
+}
+
+
+button {
+    width: 6%;
+    height: 11%;
+    background-color: white;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    border-radius: 50%;
+    top: 69%;
+    left: 47%;
+    cursor: pointer;
+    opacity: 0;   
+}
+
+.advice_number_text {
+    font-family: "Manrope";
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 26%;
+}
+
+.advice_text {
+    font-family: "Manrope";
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 50%;
+    background-color: hsl(217, 19%, 24%);
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 28%;
+    left: 31%;
+    margin: -25px 0 0 -25px;
+    /* Apply negative top and left margins to truly center the element */
+    display: flex;
+    border-radius: 20px;
+
+}
+
+.advice_container {
+    width: 80%;
+    height: 50%;
+    background-color: hsl(217, 19%, 24%);
+    /* Center vertically and horizontally */
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    /* Apply negative top and left margins to truly center the element */
+    display: flex;
+    border-radius: 20px;
+    top: 25%;
+    left: 14%;
+}
+
+.advice_number_container {
+    width: 40%;
+    height: 15%;
+    background-color: hsl(217, 19%, 24%);
+    /* Center vertically and horizontally */
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    /* Apply negative top and left margins to truly center the element */
+    display: flex;
+    border-radius: 20px;
+    top: 8%;
+    left: 34%;
+}
+
+#Divider {
+    width: 80%;
+    height: 5%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 77%;
+    left: 10%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.circle {
+    width: 12%;
+    height: 19%;
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    margin: 0;
+    position: absolute;
+    border-radius: 50%;
+    top: 90%;
+    left: 44%;
+}
+
+#Dice {
+    width: 30%;
+    height: 35%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 33%;
+    left: 36%;
+    cursor: pointer; 
+}
+
